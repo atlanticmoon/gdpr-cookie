@@ -4,8 +4,10 @@
     "keywords": [
         "atlanticmoon",
         "gdpr-cookie",
+        "laravel-gdpr-cookie",
         "gdpr",
-        "cookie"
+        "cookie",
+        "laravel"
     ],
     "homepage": "https://github.com/atlanticmoon/laravel-gdpr-cookie",
     "license": "MIT",

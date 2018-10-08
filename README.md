@@ -1,9 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
-[![Build Status](https://img.shields.io/travis/atlanticmoon/gdpr-cookie/master.svg?style=flat-square)](https://travis-ci.org/atlanticmoon/gdpr-cookie)
-[![Quality Score](https://img.shields.io/scrutinizer/g/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://scrutinizer-ci.com/g/atlanticmoon/gdpr-cookie)
-[![Total Downloads](https://img.shields.io/packagist/dt/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/atlanticmoon/laravel-gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
+[![Build Status](https://img.shields.io/travis/atlanticmoon/laravel-gdpr-cookie/master.svg?style=flat-square)](https://travis-ci.org/atlanticmoon/gdpr-cookie)
+[![Quality Score](https://img.shields.io/scrutinizer/g/atlanticmoon/laravel-gdpr-cookie.svg?style=flat-square)](https://scrutinizer-ci.com/g/atlanticmoon/gdpr-cookie)
+[![Total Downloads](https://img.shields.io/packagist/dt/atlanticmoon/laravel-gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
 
 This is where your description should go. Try and limit it to a paragraph or two.
 
@@ -12,7 +12,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require atlanticmoon/gdpr-cookie
+composer require atlanticmoon/laravel-gdpr-cookie
 ```
 
 ## Usage
