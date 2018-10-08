@@ -1,22 +1,28 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "atlanticmoon/gdpr-cookie",
+    "description": "Laravel cookie checker for GDPR Compliance",
     "keywords": [
-        "spatie",
-        ":package_name"
+        "atlanticmoon",
+        "gdpr-cookie",
+        "gdpr",
+        "cookie"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/atlanticmoon/gdpr-cookie",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Atlanticmoon Srl (developed by Fabrizio Zippo)",
+            "email": "zippo@atlanticmoon.it",
+            "homepage": "https://www.atlanticmoon.com/",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "illuminate/routing": "5.5.x|5.6.x|5.7.x",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x",
+        "illuminate/view": "5.5.x|5.6.x|5.7.x",
+        "illuminate/cookie": "5.5.x|5.6.x|5.7.x"
     },
     "require-dev": {
         "larapack/dd": "^1.0",
@@ -24,18 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Atlanticmoon\\GdprCookie\\": "src"
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
-        }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Atlanticmoon\\GdprCookie\\GdprCookieServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "GdprCookie": "Atlanticmoon\\GdprCookie\\GdprCookieFacade"
             }
         }
     }

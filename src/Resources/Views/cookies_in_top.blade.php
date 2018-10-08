@@ -1,0 +1,2 @@
+{!! $gdprCookie->getCookiesHTML('top') !!}
+

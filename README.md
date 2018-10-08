@@ -1,11 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/:package_name.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
-[![Build Status](https://img.shields.io/travis/spatie/:package_name/master.svg?style=flat-square)](https://travis-ci.org/spatie/:package_name)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/:package_name)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/:package_name.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
-
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_email``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
+[![Build Status](https://img.shields.io/travis/atlanticmoon/gdpr-cookie/master.svg?style=flat-square)](https://travis-ci.org/atlanticmoon/gdpr-cookie)
+[![Quality Score](https://img.shields.io/scrutinizer/g/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://scrutinizer-ci.com/g/atlanticmoon/gdpr-cookie)
+[![Total Downloads](https://img.shields.io/packagist/dt/atlanticmoon/gdpr-cookie.svg?style=flat-square)](https://packagist.org/packages/atlanticmoon/gdpr-cookie)
 
 This is where your description should go. Try and limit it to a paragraph or two.
 
@@ -14,20 +12,13 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require spatie/:package_name
+composer require atlanticmoon/gdpr-cookie
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
-```
 
-### Testing
-
-``` bash
-composer test
 ```
 
 ### Changelog
@@ -40,26 +31,24 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
+If you discover any security related issues, please email info@atlanticmoon.it instead of using the issue tracker.
 
 ## Postcardware
 
 You're free to use this package, but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
 
-Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
-
-We publish all received postcards [on our company website](https://spatie.be/en/opensource/postcards).
+We publish all received postcards [on our company website](https://www.atlanticmoon.com/).
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Atlanticmoon Srl (developed by Fabrizio Zippo)](https://github.com/atlanticmoon)
 - [All Contributors](../../contributors)
 
 ## Support us
 
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+Atlanticmoon is a webdesign agency based in Turin, Italy. You'll find an overview of all our open source projects [on our website](https://www.atlanticmoon.com/).
 
-Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/spatie). 
+Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/atlanticmoon). 
 All pledges will be dedicated to allocating workforce on maintenance and new awesome stuff.
 
 ## License

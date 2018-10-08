@@ -1,13 +1,14 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Atlanticmoon\GdprCookie\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Atlanticmoon\GdprCookie\Contracts\GdprCookie;
 
 /**
- * @see \Spatie\Skeleton\SkeletonClass
+ * @see \Atlanticmoon\GdprCookie\GdprCookie
  */
-class SkeletonFacade extends Facade
+class GdprCookieFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +17,6 @@ class SkeletonFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'skeleton';
+	    return GdprCookie::class;
     }
 }
